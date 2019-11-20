@@ -1,0 +1,13 @@
+profiles:
+  active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservice3-provider-8081-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservice3-provider-8081-test
