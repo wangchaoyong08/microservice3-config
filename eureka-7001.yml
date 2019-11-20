@@ -1,7 +1,6 @@
 spring:
   profiles:
-    active:
-      - dev
+    active: dev
 ---
 #配置服务端口
 server:
@@ -20,8 +19,7 @@ eureka:
 spring:
   application:
     name: eureka-7001
-  profiles:
-    - dev
+  profiles: dev
 ---
 #配置服务端口
 server:
@@ -40,7 +38,6 @@ eureka:
 spring:
   application:
     name: eureka-7001
-  profiles:
-    - test
+  profiles: test
 
 
